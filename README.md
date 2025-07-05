@@ -41,7 +41,7 @@ portfolio-website/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/html-portfolio.git
+git clone https://github.com/nurf21/basic-html-website
 ```
 
 2. Open any HTML file in your browser to view the corresponding page:
