@@ -26,6 +26,32 @@ td {
   text-align: left;
 }
 
+form {
+  max-width: 600px;
+  margin: 0;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
 .review {
   margin-bottom: 20px;
   padding: 15px;

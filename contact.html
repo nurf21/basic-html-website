@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Articles</title>
+  <title>Portfolio - Contact</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,24 +18,27 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <h1>Articles</h1>
+    <h1>Contact</h1>
   </header>
 
   <main>
     <section>
-      <h2>Latest Articles</h2>
-      <article>
-        <h3>Understanding Semantic HTML</h3>
-        <p>Learn how to structure your HTML documents semantically for better accessibility and SEO...</p>
-      </article>
-      <article>
-        <h3>CSS Flexbox vs Grid</h3>
-        <p>A comprehensive comparison between Flexbox and Grid layout systems...</p>
-      </article>
-      <article>
-        <h3>JavaScript Best Practices</h3>
-        <p>Essential tips and techniques for writing clean, efficient JavaScript code...</p>
-      </article>
+      <h2>Get In Touch</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
     </section>
   </main>
 
